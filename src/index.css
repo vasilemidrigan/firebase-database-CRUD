@@ -1,13 +1,38 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: antiquewhite;
+  padding: 10px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+input {
+  margin: 5px;
+  width: 50%;
+}
+
+button {
+  height: 30px;
+  appearance: none;
+  border: 1px solid #fff;
+  border-radius: 7px;
+  background-color: slateblue;
+  color: white;
+  margin: 5px;
+}
+
+.create-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid purple;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.user {
+  border: 1px solid purple;
+  border-radius: 7px;
+  margin-top: 10px;
+  padding: 5px;
 }
